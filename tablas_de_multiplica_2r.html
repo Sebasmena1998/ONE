@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<h1>TABLA DE MULTIPLICAR</h1>
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var multiplicando = parseInt(prompt("Ingrese la tabla de multiplicar"));
+    var multiplicador = 1;
+    var limite = parseInt(prompt("Elija el limite de su tabla"));
+    var producto; 
+
+    imprimir("WHILE");
+    while(multiplicador <= limite){
+
+    producto=(multiplicando*multiplicador);
+
+    imprimir(producto);
+
+    multiplicador++;
+
+    }
+
+    imprimir("FOR");
+
+    for (var multiplicador = 1; multiplicador <= limite; multiplicador++) {
+    imprimir(producto=(multiplicando*multiplicador));
+    }
+    
+
+
+    
+
+</script>

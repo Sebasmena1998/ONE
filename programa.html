@@ -1,0 +1,98 @@
+<meta charset="UTF-8">
+
+HTML
+
+<br>
+La edad de Sebastián es...
+<br>
+?
+
+<br>
+<br>
+
+JavaScript
+
+<br>
+<br>
+
+Juan nacio en el año
+2003
+
+Pedro nacio en el año
+1998
+
+Carlos nacio en el año
+2008
+
+
+<br>
+<br>
+
+<h1>PROGRAMA</h1>
+<br>
+<h1>PROGRAMA</h1>
+
+<script >
+
+	function saltarlinea() {
+
+		document.write("<br>");
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarlinea();
+	}
+
+		var anho, promedio, edadJuan, edadPedro, edadCarlos, nombre1, nombre2, nombre3;
+
+		anho = 2025;
+		edadJuan = anho-2003;
+		edadPedro = anho-1998;
+		edadCarlos = anho-2008;
+
+		nombre1= ("Juan");
+		nombre2= ("Pedro");
+		nombre3= ("Carlos");
+
+
+imprimir("La suma de las edades de Juan, Pedro y Carlos es...");
+imprimir(20+25+15);
+
+
+imprimir("Juan tiene " + (edadJuan)+" años");
+
+
+imprimir("Pedro tiene " + (edadPedro)+" años");
+
+
+
+
+imprimir("Carlos tiene " + (edadCarlos)+" años");
+
+
+
+
+promedio = (edadJuan+edadPedro+edadCarlos)/3;
+
+imprimir("El promedio de la edad de " + nombre1 + ", " + nombre2 + ", " + nombre3 + " es "  + Math.round(promedio));
+
+
+
+</script>
+
+<script>
+    function mostrarAlerta(mensaje) {
+        alert("***" + mensaje + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+</script>

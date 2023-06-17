@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h1>MEDIA DE EDADES DE LA FAMILIA</h1>
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+    var limite =parseInt(prompt("Ingrese limite de serie"));
+    var numeropar=0;
+
+    
+    while( numeropar <= limite){
+
+    imprimir(numeropar);
+
+    numeropar= numeropar+2;
+
+    }
+
+</script>
